@@ -16,15 +16,15 @@ public class Main {
 		
 		Street initialStreet = Street.TURN;
 		int[] initialBoard = new int[]{CardUtility.cardFromString("Kd"), CardUtility.cardFromString("Jd"), CardUtility.cardFromString("Td"), CardUtility.cardFromString("5s")};
-		int initialPot = 100;
-		int startingStack = 1000;
+		int initialPot = 400;
+		int startingStack = 800;
 		
 		BetSettings p1BetSettings = new BetSettings();
 		BetSettings p2BetSettings = new BetSettings();
 		
 		p1BetSettings.flopBetSizes = Arrays.asList(1.0f);
 		p1BetSettings.turnBetSizes = Arrays.asList(0.5f, 1.0f);
-		p1BetSettings.riverBetSizes = Arrays.asList(0.25f, 0.5f, 1.0f);
+		p1BetSettings.riverBetSizes = Arrays.asList(0.5f, 1.0f);
 		
 		p1BetSettings.flopRaiseSizes = Arrays.asList(1.0f);
 		p1BetSettings.turnRaiseSizes = Arrays.asList(0.5f);
@@ -32,7 +32,7 @@ public class Main {
 		
 		p2BetSettings.flopBetSizes = Arrays.asList(1.0f);
 		p2BetSettings.turnBetSizes = Arrays.asList(0.5f, 1.0f);
-		p2BetSettings.riverBetSizes = Arrays.asList(0.25f, 0.5f, 1.0f);
+		p2BetSettings.riverBetSizes = Arrays.asList(0.5f, 1.0f);
 		
 		p2BetSettings.flopRaiseSizes = Arrays.asList(1.0f);
 		p2BetSettings.turnRaiseSizes = Arrays.asList(0.5f);
