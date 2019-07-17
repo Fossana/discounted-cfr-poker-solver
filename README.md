@@ -1,6 +1,6 @@
 # discounted-cfr-poker-solver
 
-This repository contains Java code for finding approximate nash equilibrium strategies for poker turn and river subgames using discouted counterfactual regret minimization (DCFR).
+This repository contains Java code for finding approximate nash equilibrium strategies for poker turn and river subgames using discouted counterfactual regret minimization (DCFR). The code will run several hundred iterations of DCFR and print the best response EVs and exploitability every 100 iterations. No function is written yet to print the average strategies.
 
 The hand evaluator requires a 124MB lookup table that can be found here: https://github.com/christophschmalhofer/poker/blob/master/XPokerEval/XPokerEval.TwoPlusTwo/HandRanks.dat
 
