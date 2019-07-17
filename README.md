@@ -1,3 +1,12 @@
 # discounted-cfr-poker-solver
 
-This repository contains Java code for finding approximate nash equilibrium strategies for poker turn and river subgames using discouted counterfactual regret minimization (DCFR). The solution is multithreaded. At one point I had CFR+ and PCS (Public Chance Sampling) implemented, which is why the strategy and factory pattern are used. The code could easily be modified for flop subgames.
+This repository contains Java code for finding approximate nash equilibrium strategies for poker turn and river subgames using discouted counterfactual regret minimization (DCFR).
+
+
+To change the game tree, modify the code in the functions testTurn() and testRiver() in Main.java.
+
+On my machine (i7 4790k), 500 cfr iterations for testTurn() take 20s and 1000 cfr iterations for testRiver() takes <1s.
+
+At one point I had CFR+ and PCS (Public Chance Sampling) implemented, which is why the strategy and factory design patterns are used.
+
+The code could easily be modified for flop subgames.
