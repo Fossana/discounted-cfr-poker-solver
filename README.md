@@ -6,7 +6,7 @@ The hand evaluator requires a 124MB lookup table that can be found here: https:/
 
 To change the game tree, modify the code in the functions testTurn() and testRiver() in Main.java.
 
-On my machine (i7 4790k), 500 cfr iterations for testTurn() take 20s and 1000 cfr iterations for testRiver() takes <1s.
+On my machine (i7 4790k), 500 cfr iterations for testTurn() take 76s and 1000 cfr iterations for testRiver() takes <1s.
 
 At one point I had CFR+ and PCS (Public Chance Sampling) implemented, which is why the strategy and factory design patterns are used.
 
