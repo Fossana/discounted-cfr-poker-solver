@@ -11,3 +11,5 @@ On my machine (i7 4790k), 500 cfr iterations for testTurn() take 76s and 1000 cf
 At one point I had CFR+ and PCS (Public Chance Sampling) implemented, which is why the strategy and factory design patterns are used.
 
 The code could easily be modified for flop subgames.
+
+Special thanks to amax, whose river solver was the basis for most of my implementation. amax's RiverSolver can be found here: http://www.poker-ai.org/archive/www.pokerai.org/pf3/viewtopicba91.html?f=64&t=2922&st=0&sk=t&sd=a&start=40
